@@ -1,0 +1,162 @@
+Args: output.bin,exec,1000,1024
+Loading output.bin binary file ...  success
+Loading binary data (32 bytes) to memory of size 1024 ... success
+Initializing debug environment ... success
+Emulate 1000 cycles
+Start 1000-length execution round
+Memory(0, 1) = 0x10b8
+Executed command add(IP, 0x0010, R1)
+  took memory fetches = 2
+Memory(4, 5) = 0x10f8
+Executed command add(IP, 0x001a, R2)
+  took memory fetches = 2
+Memory(8, 9) = 0x062f
+Executed command Mov (0x0000 to R4)
+  took memory fetches = 2
+Memory(12, 13) = 0x0637
+Executed command Mov (0x0007 to R5)
+  took memory fetches = 2
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(20, 21) = 0x1524
+Executed command mul(R3, R3, R3)
+  took memory fetches = 1
+Memory(22, 23) = 0x116c
+Executed command add(R3, R4, R4)
+  took memory fetches = 1
+Memory(24, 25) = 0x13be
+Executed command sub(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(28, 29) = 0x0e02
+Executed command Jump(R1)
+  took memory fetches = 1
+Memory(16, 17) = 0x0626
+Executed command Mov (R5 to R3)
+  took memory fetches = 1
+Memory(18, 19) = 0x1c1e
+Executed command JumpZero(if R5 to R2)
+  took memory fetches = 1
+Memory(30, 31) = 0x0800
+Execution interrupted. Reason: Halt instruction executed
+Processor Halted, execution stopped
+IP = 0x001e
+Dumping regs:
+ IP: 0x001e
+ SP: 0x0000
+ R1: 0x0010
+ R2: 0x001e
+ R3: 0x0000
+ R4: 0x008c
+ R5: 0x0000

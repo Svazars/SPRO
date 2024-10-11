@@ -1,0 +1,20 @@
+Args: output.bin,exec,7,150
+Loading output.bin binary file ...  success
+Loading binary data (6 bytes) to memory of size 150 ... success
+Initializing debug environment ... success
+Emulate 7 cycles
+Start 7-length execution round
+Memory(0, 1) = 0x11bf
+Executed command add(0xc350, 0x4e20, R5)
+  took memory fetches = 3
+Finished execution round, real used cycles = 10
+         with limit       = 7
+IP = 0x0006
+Dumping regs:
+ IP: 0x0006
+ SP: 0x0000
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x1170

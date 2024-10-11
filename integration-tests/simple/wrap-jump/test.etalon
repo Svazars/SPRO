@@ -1,0 +1,23 @@
+Args: output.bin,exec,17,444
+Loading output.bin binary file ...  success
+Loading binary data (18 bytes) to memory of size 444 ... success
+Initializing debug environment ... success
+Emulate 17 cycles
+Start 17-length execution round
+Memory(0, 1) = 0x0e07
+Executed command Jump(0x0384)
+  took memory fetches = 2
+Memory(900, 901) = 0x11bf
+Executed command add(0x0001, 0x0001, R5)
+  took memory fetches = 3
+Finished execution round, real used cycles = 17
+         with limit       = 17
+IP = 0x038a
+Dumping regs:
+ IP: 0x038a
+ SP: 0x0000
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x0002

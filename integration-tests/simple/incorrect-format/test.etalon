@@ -1,0 +1,21 @@
+Args: incorrect-format.bin,exec,20,64
+Loading incorrect-format.bin binary file ...  success
+Loading binary data (8 bytes) to memory of size 64 ... success
+Initializing debug environment ... success
+Emulate 20 cycles
+Start 20-length execution round
+Memory(0, 1) = 0x11ba
+Executed command add(R1, 0x000f, R5)
+  took memory fetches = 2
+Memory(4, 5) = 0x11fa
+Execution interrupted. Reason: Error when decoded header 0x11fa: Destination of binary instruction (add) does not encode register
+Processor Halted, execution stopped
+IP = 0x0004
+Dumping regs:
+ IP: 0x0004
+ SP: 0x0000
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x000f

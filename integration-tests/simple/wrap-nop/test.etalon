@@ -1,0 +1,29 @@
+Args: output.bin,exec,25,1024
+Loading output.bin binary file ...  success
+Loading binary data (8 bytes) to memory of size 1024 ... success
+Initializing debug environment ... success
+Emulate 25 cycles
+Start 25-length execution round
+Memory(0, 1) = 0x11be
+Executed command add(R5, 0x0001, R5)
+  took memory fetches = 2
+Memory(4, 5) = 0x0e07
+Executed command Jump(0x03fe)
+  took memory fetches = 2
+Memory(1022, 1023) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(1024, 1025) = 0x11be
+Executed command add(R5, 0x0001, R5)
+  took memory fetches = 2
+Finished execution round, real used cycles = 25
+         with limit       = 25
+IP = 0x0404
+Dumping regs:
+ IP: 0x0404
+ SP: 0x0000
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x0002

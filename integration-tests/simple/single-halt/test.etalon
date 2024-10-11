@@ -1,0 +1,18 @@
+Args: output.bin,exec,20,16
+Loading output.bin binary file ...  success
+Loading binary data (2 bytes) to memory of size 16 ... success
+Initializing debug environment ... success
+Emulate 20 cycles
+Start 20-length execution round
+Memory(0, 1) = 0x0800
+Execution interrupted. Reason: Halt instruction executed
+Processor Halted, execution stopped
+IP = 0x0000
+Dumping regs:
+ IP: 0x0000
+ SP: 0x0000
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x0000

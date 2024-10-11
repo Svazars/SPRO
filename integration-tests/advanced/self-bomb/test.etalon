@@ -1,0 +1,27 @@
+Args: output.bin,exec,1000,1024
+Loading output.bin binary file ...  success
+Loading binary data (14 bytes) to memory of size 1024 ... success
+Initializing debug environment ... success
+Emulate 1000 cycles
+Start 1000-length execution round
+Memory(0, 1) = 0x0637
+Executed command Mov (0x0000 to R5)
+  took memory fetches = 2
+Memory(4, 5) = 0x0a3f
+Executed command Store(0x0800 to [0x0000])
+  took memory fetches = 3
+Memory(10, 11) = 0x1c3e
+Executed command JumpZero(if R5 to 0x0000)
+  took memory fetches = 2
+Memory(0, 1) = 0x0800
+Execution interrupted. Reason: Halt instruction executed
+Processor Halted, execution stopped
+IP = 0x0000
+Dumping regs:
+ IP: 0x0000
+ SP: 0x0000
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x0000

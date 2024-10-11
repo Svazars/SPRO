@@ -1,0 +1,26 @@
+Args: output.bin,exec,24,150
+Loading output.bin binary file ...  success
+Loading binary data (12 bytes) to memory of size 150 ... success
+Initializing debug environment ... success
+Emulate 24 cycles
+Start 24-length execution round
+Memory(0, 1) = 0x060f
+Executed command Mov (0x0179 to SP)
+  took memory fetches = 2
+Memory(4, 5) = 0x0a3f
+Executed command Store(0x000f to [0x004d])
+  took memory fetches = 3
+Memory(10, 11) = 0x0406
+Executed command Pop(R5)
+  took memory fetches = 2
+Finished execution round, real used cycles = 24
+         with limit       = 24
+IP = 0x000c
+Dumping regs:
+ IP: 0x000c
+ SP: 0x017b
+ R1: 0x0000
+ R2: 0x0000
+ R3: 0x0000
+ R4: 0x0000
+ R5: 0x000f
