@@ -171,9 +171,10 @@ object Main {
   }
 
   private def doAssemble(filename: String) = {
-    println(s"Assembling $filename")
+    val binname = filename.stripSuffix(".asm") ++ ".bin"
+    println(s"Assembling $filename into $binname")
     val code = Assembler.assemble(AsmParser.parseProgram(Source.fromFile(filename).getLines()))
-    writeToFile("output.bin", code.map(_.toHex + " "))
+    writeToFile(s"$binname", code.map(_.toHex + " "))
   }
 
   private def doDeathmatch(arg: Array[String]): Unit = {
