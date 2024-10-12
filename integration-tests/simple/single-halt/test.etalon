@@ -1,5 +1,5 @@
-Args: output.bin,exec,20,16
-Loading output.bin binary file ...  success
+Args: singlehalt.bin,exec,20,16
+Loading singlehalt.bin binary file ...  success
 Loading binary data (2 bytes) to memory of size 16 ... success
 Initializing debug environment ... success
 Emulate 20 cycles

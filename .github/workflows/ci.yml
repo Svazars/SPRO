@@ -15,6 +15,8 @@ jobs:
         java-version: 8
     - name: Build
       run: sbt assembly
+    - name: Test
+      run: ./run-tests.sh
     - name: Archive published pdfs
       uses: actions/upload-artifact@v4
       with:

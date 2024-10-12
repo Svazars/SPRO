@@ -1,3 +1,5 @@
+import scala.sys.process._
+
 scalaVersion := "2.13.15"
 
 libraryDependencies ++=
@@ -17,3 +19,11 @@ lazy val spro = (project in file("."))
     assembly / mainClass := Some("Main"),
     assembly / assemblyJarName := "spro.jar",
   )
+
+lazy val runTests = taskKey[Unit]("Run test scripts")
+
+runTests := {
+  val sp = assembly.value // dependency
+
+  "./run-tests.sh" !
+}

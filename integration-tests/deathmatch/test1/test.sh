@@ -14,16 +14,12 @@ cp ../../dogfight/public-bots/$P3.asm .
 cp ../../dogfight/public-bots/$P4.asm .
 
 $RUN_SPRO $P1.asm > /dev/null
-mv output.bin $P1.bin
 
 $RUN_SPRO $P2.asm > /dev/null
-mv output.bin $P2.bin
 
 $RUN_SPRO $P3.asm > /dev/null
-mv output.bin $P3.bin
 
 $RUN_SPRO $P4.asm > /dev/null
-mv output.bin $P4.bin
 
 $RUN_SPRO deathmatch $MAX_TURNS $ARENA_SIZE $SEED ./$P1.bin 0 ./$P2.bin 0 ./$P3.bin 0 ./$P4.bin 0  > test.output
 

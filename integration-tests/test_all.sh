@@ -1,11 +1,11 @@
 set -euo pipefail
 
-export SPRO_JAR=`pwd`/../out/artifacts/SPRO_jar/SPRO.jar
+export BASE_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+export SPRO_JAR="$BASE_DIR/../target/build/spro.jar"
 export RUN_SPRO="java -ea -esa -jar $SPRO_JAR"
 
 echo $RUN_SPRO
-
-export BASE_DIR=`pwd`
 
 echo "Running simple tests:"
 for n in incorrect-format single-halt jumper wrap-pop wrap-jump wrap-nop arith-add

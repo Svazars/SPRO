@@ -1,5 +1,5 @@
-Args: output.bin,exec,1000,1024
-Loading output.bin binary file ...  success
+Args: pic-loop.bin,exec,1000,1024
+Loading pic-loop.bin binary file ...  success
 Loading binary data (32 bytes) to memory of size 1024 ... success
 Initializing debug environment ... success
 Emulate 1000 cycles

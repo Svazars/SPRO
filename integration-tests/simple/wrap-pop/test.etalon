@@ -1,5 +1,5 @@
-Args: output.bin,exec,24,150
-Loading output.bin binary file ...  success
+Args: wrap-pop.bin,exec,24,150
+Loading wrap-pop.bin binary file ...  success
 Loading binary data (12 bytes) to memory of size 150 ... success
 Initializing debug environment ... success
 Emulate 24 cycles

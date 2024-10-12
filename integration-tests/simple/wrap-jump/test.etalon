@@ -1,5 +1,5 @@
-Args: output.bin,exec,17,444
-Loading output.bin binary file ...  success
+Args: wrap-jump.bin,exec,17,444
+Loading wrap-jump.bin binary file ...  success
 Loading binary data (18 bytes) to memory of size 444 ... success
 Initializing debug environment ... success
 Emulate 17 cycles

@@ -1,5 +1,5 @@
-Args: output.bin,exec,100,1024
-Loading output.bin binary file ...  success
+Args: jumper.bin,exec,100,1024
+Loading jumper.bin binary file ...  success
 Loading binary data (36 bytes) to memory of size 1024 ... success
 Initializing debug environment ... success
 Emulate 100 cycles

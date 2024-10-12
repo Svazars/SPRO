@@ -1,5 +1,5 @@
-Args: output.bin,exec,25,1024
-Loading output.bin binary file ...  success
+Args: wrap-nop.bin,exec,25,1024
+Loading wrap-nop.bin binary file ...  success
 Loading binary data (8 bytes) to memory of size 1024 ... success
 Initializing debug environment ... success
 Emulate 25 cycles

@@ -1,5 +1,5 @@
-Args: output.bin,exec,7,150
-Loading output.bin binary file ...  success
+Args: arith-add.bin,exec,7,150
+Loading arith-add.bin binary file ...  success
 Loading binary data (6 bytes) to memory of size 150 ... success
 Initializing debug environment ... success
 Emulate 7 cycles

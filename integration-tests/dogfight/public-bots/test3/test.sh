@@ -9,10 +9,8 @@ cp ../$P1.asm .
 cp ../$P2.asm .
 
 $RUN_SPRO $P1.asm > /dev/null
-mv output.bin $P1.bin
 
 $RUN_SPRO $P2.asm > /dev/null
-mv output.bin $P2.bin
 
 $RUN_SPRO deathmatch $MAX_TURNS $ARENA_SIZE $SEED ./$P1.bin 0 ./$P2.bin 0 > test.output
 # $RUN_SPRO replay ./fight.replay 1 $ARENA_SIZE

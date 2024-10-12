@@ -26,10 +26,8 @@ cp $P1PATH/$P1NAME.asm .
 cp $P2PATH/$P2NAME.asm .
 
 $RUN_SPRO $P1NAME.asm > /dev/null
-mv output.bin $P1NAME.bin
 
 $RUN_SPRO $P2NAME.asm > /dev/null
-mv output.bin $P2NAME.bin
 
 $RUN_SPRO deathmatch $TURNS_UNTIL_SUDDEN_DEATH $ARENA_SIZE $SEED ./$P1NAME.bin $P1BONUS ./$P2NAME.bin $P2BONUS > test.output
 
