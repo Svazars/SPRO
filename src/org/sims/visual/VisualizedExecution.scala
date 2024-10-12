@@ -11,10 +11,10 @@ import org.sims.processor.memory.{I16, Memory}
 object VisualizedExecution {
 
   def dumpPanelToImage(dataPanel: DataPanel, filename: String, arenaSizeSqrt: Int): Unit = {
-    val bi: BufferedImage = new BufferedImage(arenaSizeSqrt * 20, arenaSizeSqrt * 20, BufferedImage.TYPE_INT_RGB)
+    val bi: BufferedImage = new BufferedImage(dataPanel.getWidth(), dataPanel.getHeight(), BufferedImage.TYPE_INT_RGB)
     val g = bi.createGraphics()
 
-    dataPanel.paint(g)
+    dataPanel.paintAll(g)
 
     val file = new File(filename)
     val imageOutputStream: BufferedOutputStream = new BufferedOutputStream(new FileOutputStream(file))
