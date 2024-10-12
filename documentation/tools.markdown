@@ -8,7 +8,7 @@ git clone https://github.com/Svazars/SPRO.git
 
 Проверьте, что у вас установлена java подходящей версии:
 ```bash
-java -ea -esa ./SPRO/out/artifacts/SPRO_jar/SPRO.jar
+java -ea -esa -jar ./SPRO/out/artifacts/SPRO_jar/SPRO.jar
 ```
 должен напечататься help для эмулятора.
 
@@ -22,7 +22,7 @@ echo "halt" > simple.asm
 
 Превратите её в "машинный код"
 ```
-java -ea -esa ./SPRO/out/artifacts/SPRO_jar/SPRO.jar simple.asm
+java -ea -esa -jar ./SPRO/out/artifacts/SPRO_jar/SPRO.jar simple.asm
 ```
 и в текущей директории появится output.bin
 
@@ -30,7 +30,7 @@ java -ea -esa ./SPRO/out/artifacts/SPRO_jar/SPRO.jar simple.asm
 
 Подсоедините к процессору 256 байт памяти, загрузите по адресу ноль свою программу и дайте ей исполняться не более чем 100 тактов:
 ```
-java -ea -esa ./SPRO/out/artifacts/SPRO_jar/SPRO.jar simple.bin exec 100 256
+java -ea -esa -jar ./SPRO/out/artifacts/SPRO_jar/SPRO.jar output.bin exec 100 256
 ```
 
 ## Debugger
@@ -38,7 +38,7 @@ java -ea -esa ./SPRO/out/artifacts/SPRO_jar/SPRO.jar simple.bin exec 100 256
 Подсоедините к процессору 256 байт памяти, загрузите по адресу ноль свою программу и поотлаживайтесь в интерактивном режиме:
 
 ```
-java -ea -esa ./SPRO/out/artifacts/SPRO_jar/SPRO.jar simple.bin debug-novis 256
+java -ea -esa -jar ./SPRO/out/artifacts/SPRO_jar/SPRO.jar output.bin debug-novis 256
 ```
 
 Напечатайте help и появится справка по поддерживаемым командам.
