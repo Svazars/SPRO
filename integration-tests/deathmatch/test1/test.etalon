@@ -1,0 +1,4657 @@
+Args: deathmatch,50,256,777,./spore.bin,0,./halter.bin,0,./runner.bin,0,./suicide.bin,0
+Seed: 777
+Loading player's 0 ./spore.bin binary file ...  success
+Extra cycles per context switch for player 0: 0
+Loading player's 1 ./halter.bin binary file ...  success
+Extra cycles per context switch for player 1: 0
+Loading player's 2 ./runner.bin binary file ...  success
+Extra cycles per context switch for player 2: 0
+Loading player's 3 ./suicide.bin binary file ...  success
+Extra cycles per context switch for player 3: 0
+Max turns: 50
+Arena size: 256
+Recordind replay at ./fight.replay
+Loading player0 at offset 10
+Loading player1 at offset 64
+Loading player2 at offset 130
+Loading player3 at offset 206
+Max turns: 50
+Visualization mode: RecordReplay(.,fight)
+Turn = 0, cycles spent = 0
+Restoring player 0 context
+Start 55-length execution round
+Memory(10, 11) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(12, 13) = 0x061f
+Executed command Mov (0x0004 to R2)
+  took memory fetches = 2
+Memory(16, 17) = 0x12b8
+Executed command sub(IP, 0x0002, R1)
+  took memory fetches = 2
+Memory(20, 21) = 0x0a17
+Executed command Store(0x0800 to [R1])
+  took memory fetches = 2
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 57
+         with limit       = 55
+Executed 57 cycles
+Restoring player 1 context
+Start 69-length execution round
+Memory(64, 65) = 0x0637
+Executed command Mov (0x0001 to R5)
+  took memory fetches = 2
+Memory(68, 69) = 0x062f
+Executed command Mov (0x0800 to R4)
+  took memory fetches = 2
+Memory(72, 73) = 0x10f8
+Executed command add(IP, 0x0032, R2)
+  took memory fetches = 2
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 69
+         with limit       = 69
+Executed 69 cycles
+Restoring player 2 context
+Start 65-length execution round
+Memory(130, 131) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(132, 133) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(134, 135) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(136, 137) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(138, 139) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(140, 141) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(142, 143) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(144, 145) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(146, 147) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(148, 149) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(150, 151) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(152, 153) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(154, 155) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(156, 157) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(158, 159) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(160, 161) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(162, 163) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 68
+         with limit       = 65
+Executed 68 cycles
+Restoring player 3 context
+Start 72-length execution round
+Memory(206, 207) = 0x0800
+Execution interrupted. Reason: Halt instruction executed
+Executed 0 cycles
+Player 3 is DEAD
+Turn = 1, cycles spent = 194
+Restoring player 0 context
+Start 61-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 61
+Executed 64 cycles
+Restoring player 1 context
+Start 72-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 72
+Executed 72 cycles
+Restoring player 2 context
+Start 55-length execution round
+Memory(164, 165) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(166, 167) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(168, 169) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(170, 171) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(172, 173) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(174, 175) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(176, 177) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(178, 179) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(180, 181) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(182, 183) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(184, 185) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(186, 187) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(188, 189) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(190, 191) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 55
+Executed 56 cycles
+Turn = 2, cycles spent = 386
+Restoring player 0 context
+Start 55-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 55
+Executed 56 cycles
+Restoring player 1 context
+Start 51-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 51
+Executed 52 cycles
+Restoring player 2 context
+Start 64-length execution round
+Memory(192, 193) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(194, 195) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(196, 197) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(198, 199) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(200, 201) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(202, 203) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(204, 205) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(206, 207) = 0x0800
+Execution interrupted. Reason: Halt instruction executed
+Executed 0 cycles
+Player 2 is DEAD
+Turn = 3, cycles spent = 494
+Restoring player 0 context
+Start 59-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 59
+Executed 60 cycles
+Restoring player 1 context
+Start 67-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 68
+         with limit       = 67
+Executed 68 cycles
+Turn = 4, cycles spent = 622
+Restoring player 0 context
+Start 50-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Restoring player 1 context
+Start 56-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 56
+Executed 56 cycles
+Turn = 5, cycles spent = 730
+Restoring player 0 context
+Start 74-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 74
+Executed 76 cycles
+Restoring player 1 context
+Start 58-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 58
+Executed 60 cycles
+Turn = 6, cycles spent = 866
+Restoring player 0 context
+Start 64-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 64
+Executed 64 cycles
+Restoring player 1 context
+Start 69-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 69
+Executed 72 cycles
+Turn = 7, cycles spent = 1002
+Restoring player 0 context
+Start 59-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 59
+Executed 60 cycles
+Restoring player 1 context
+Start 62-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 62
+Executed 64 cycles
+Turn = 8, cycles spent = 1126
+Restoring player 0 context
+Start 50-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Restoring player 1 context
+Start 57-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 57
+Executed 60 cycles
+Turn = 9, cycles spent = 1238
+Restoring player 0 context
+Start 74-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 74
+Executed 76 cycles
+Restoring player 1 context
+Start 53-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 53
+Executed 56 cycles
+Turn = 10, cycles spent = 1370
+Restoring player 0 context
+Start 57-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 57
+Executed 60 cycles
+Restoring player 1 context
+Start 52-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 52
+Executed 52 cycles
+Turn = 11, cycles spent = 1482
+Restoring player 0 context
+Start 73-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 73
+Executed 76 cycles
+Restoring player 1 context
+Start 62-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 62
+Executed 64 cycles
+Turn = 12, cycles spent = 1622
+Restoring player 0 context
+Start 50-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Restoring player 1 context
+Start 51-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 51
+Executed 52 cycles
+Turn = 13, cycles spent = 1726
+Restoring player 0 context
+Start 74-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 74
+Executed 76 cycles
+Restoring player 1 context
+Start 53-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 53
+Executed 56 cycles
+Turn = 14, cycles spent = 1858
+Restoring player 0 context
+Start 65-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 68
+         with limit       = 65
+Executed 68 cycles
+Restoring player 1 context
+Start 67-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 68
+         with limit       = 67
+Executed 68 cycles
+Turn = 15, cycles spent = 1994
+Restoring player 0 context
+Start 72-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 72
+Executed 72 cycles
+Restoring player 1 context
+Start 59-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 59
+Executed 60 cycles
+Turn = 16, cycles spent = 2126
+Restoring player 0 context
+Start 62-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 62
+Executed 64 cycles
+Restoring player 1 context
+Start 69-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 69
+Executed 72 cycles
+Turn = 17, cycles spent = 2262
+Restoring player 0 context
+Start 58-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 58
+Executed 60 cycles
+Restoring player 1 context
+Start 63-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 63
+Executed 64 cycles
+Turn = 18, cycles spent = 2386
+Restoring player 0 context
+Start 57-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 57
+Executed 60 cycles
+Restoring player 1 context
+Start 55-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 55
+Executed 56 cycles
+Turn = 19, cycles spent = 2502
+Restoring player 0 context
+Start 63-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 63
+Executed 64 cycles
+Restoring player 1 context
+Start 55-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 55
+Executed 56 cycles
+Turn = 20, cycles spent = 2622
+Restoring player 0 context
+Start 57-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 57
+Executed 60 cycles
+Restoring player 1 context
+Start 60-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 60
+Executed 60 cycles
+Turn = 21, cycles spent = 2742
+Restoring player 0 context
+Start 51-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 51
+Executed 52 cycles
+Restoring player 1 context
+Start 61-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 61
+Executed 64 cycles
+Turn = 22, cycles spent = 2858
+Restoring player 0 context
+Start 54-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 54
+Executed 56 cycles
+Restoring player 1 context
+Start 73-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 73
+Executed 76 cycles
+Turn = 23, cycles spent = 2990
+Restoring player 0 context
+Start 71-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 71
+Executed 72 cycles
+Restoring player 1 context
+Start 70-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 70
+Executed 72 cycles
+Turn = 24, cycles spent = 3134
+Restoring player 0 context
+Start 53-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 53
+Executed 56 cycles
+Restoring player 1 context
+Start 61-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 61
+Executed 64 cycles
+Turn = 25, cycles spent = 3254
+Restoring player 0 context
+Start 62-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 62
+Executed 64 cycles
+Restoring player 1 context
+Start 59-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 59
+Executed 60 cycles
+Turn = 26, cycles spent = 3378
+Restoring player 0 context
+Start 62-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 64
+         with limit       = 62
+Executed 64 cycles
+Restoring player 1 context
+Start 51-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 51
+Executed 52 cycles
+Turn = 27, cycles spent = 3494
+Restoring player 0 context
+Start 52-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 52
+Executed 52 cycles
+Restoring player 1 context
+Start 50-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Turn = 28, cycles spent = 3598
+Restoring player 0 context
+Start 74-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 74
+Executed 76 cycles
+Restoring player 1 context
+Start 59-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 59
+Executed 60 cycles
+Turn = 29, cycles spent = 3734
+Restoring player 0 context
+Start 56-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 56
+Executed 56 cycles
+Restoring player 1 context
+Start 55-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 55
+Executed 56 cycles
+Turn = 30, cycles spent = 3846
+Restoring player 0 context
+Start 74-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 74
+Executed 76 cycles
+Restoring player 1 context
+Start 51-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 51
+Executed 52 cycles
+Turn = 31, cycles spent = 3974
+Restoring player 0 context
+Start 57-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 57
+Executed 60 cycles
+Restoring player 1 context
+Start 50-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Turn = 32, cycles spent = 4086
+Restoring player 0 context
+Start 72-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 72
+Executed 72 cycles
+Restoring player 1 context
+Start 68-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 68
+         with limit       = 68
+Executed 68 cycles
+Turn = 33, cycles spent = 4226
+Restoring player 0 context
+Start 60-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 60
+Executed 60 cycles
+Restoring player 1 context
+Start 67-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 68
+         with limit       = 67
+Executed 68 cycles
+Turn = 34, cycles spent = 4354
+Restoring player 0 context
+Start 53-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 53
+Executed 56 cycles
+Restoring player 1 context
+Start 56-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 56
+Executed 56 cycles
+Turn = 35, cycles spent = 4466
+Restoring player 0 context
+Start 73-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 73
+Executed 76 cycles
+Restoring player 1 context
+Start 58-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 58
+Executed 60 cycles
+Turn = 36, cycles spent = 4602
+Restoring player 0 context
+Start 72-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 72
+Executed 72 cycles
+Restoring player 1 context
+Start 54-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 54
+Executed 56 cycles
+Turn = 37, cycles spent = 4730
+Restoring player 0 context
+Start 70-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 70
+Executed 72 cycles
+Restoring player 1 context
+Start 58-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Finished execution round, real used cycles = 60
+         with limit       = 58
+Executed 60 cycles
+Turn = 38, cycles spent = 4862
+Restoring player 0 context
+Start 55-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 55
+Executed 56 cycles
+Restoring player 1 context
+Start 73-length execution round
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 73
+Executed 76 cycles
+Turn = 39, cycles spent = 4994
+Restoring player 0 context
+Start 52-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 52
+Executed 52 cycles
+Restoring player 1 context
+Start 56-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 56
+         with limit       = 56
+Executed 56 cycles
+Turn = 40, cycles spent = 5102
+Restoring player 0 context
+Start 74-length execution round
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 74
+Executed 76 cycles
+Restoring player 1 context
+Start 50-length execution round
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Turn = 41, cycles spent = 5230
+Restoring player 0 context
+Start 69-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 69
+Executed 72 cycles
+Restoring player 1 context
+Start 50-length execution round
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Finished execution round, real used cycles = 52
+         with limit       = 50
+Executed 52 cycles
+Turn = 42, cycles spent = 5354
+Restoring player 0 context
+Start 73-length execution round
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Memory(24, 25) = 0x0000
+Executed command Nop
+  took memory fetches = 1
+Memory(26, 27) = 0x1218
+Executed command sub(IP, R2, IP)
+  took memory fetches = 1
+Finished execution round, real used cycles = 76
+         with limit       = 73
+Executed 76 cycles
+Restoring player 1 context
+Start 72-length execution round
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Memory(82, 83) = 0x0e04
+Executed command Jump(R3)
+  took memory fetches = 1
+Memory(76, 77) = 0x0620
+Executed command Mov (IP to R3)
+  took memory fetches = 1
+Memory(78, 79) = 0x0a1d
+Executed command Store(R4 to [R2])
+  took memory fetches = 1
+Memory(80, 81) = 0x10de
+Executed command add(R5, R2, R2)
+  took memory fetches = 1
+Finished execution round, real used cycles = 72
+         with limit       = 72
+Executed 72 cycles
+Turn = 43, cycles spent = 5502
+Restoring player 0 context
+Start 73-length execution round
+Memory(24, 25) = 0x0808
+Execution interrupted. Reason: Halt instruction executed
+Executed 0 cycles
+Player 0 is DEAD
+The only one survivor left, it is player 1, congratulations!
+Winner is 1 <./halter.bin>

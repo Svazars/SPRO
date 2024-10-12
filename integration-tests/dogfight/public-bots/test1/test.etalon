@@ -1,0 +1,22 @@
+Args: deathmatch,10,100,42,./suicide.bin,0,./runner.bin,0
+Seed: 42
+Loading player's 0 ./suicide.bin binary file ...  success
+Extra cycles per context switch for player 0: 0
+Loading player's 1 ./runner.bin binary file ...  success
+Extra cycles per context switch for player 1: 0
+Max turns: 10
+Arena size: 100
+Recordind replay at ./fight.replay
+Loading player0 at offset 2
+Loading player1 at offset 52
+Max turns: 10
+Visualization mode: RecordReplay(.,fight)
+Turn = 0, cycles spent = 0
+Restoring player 0 context
+Start 73-length execution round
+Memory(2, 3) = 0x0800
+Execution interrupted. Reason: Halt instruction executed
+Executed 0 cycles
+Player 0 is DEAD
+The only one survivor left, it is player 1, congratulations!
+Winner is 1 <./runner.bin>
